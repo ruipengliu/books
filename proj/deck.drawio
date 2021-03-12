@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T03:40:50.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Gu2etrxJTxdbH7YLG5p_" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T03:59:00.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="kEHjGL-0B7bcVgZ5morA" version="14.4.7" type="github">
   <diagram id="NbYphcjg0bYfdM2CbAUF" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7PD6qdCcejRFVz4rDIHD-2" value="Service" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="70" width="430" height="620" as="geometry" />
+          <mxGeometry x="570" y="70" width="590" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="7PD6qdCcejRFVz4rDIHD-13" value="Generate Service scaffold" style="rounded=0;whiteSpace=wrap;fillColor=none;dashed=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;html=1;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="625" y="230" width="375" height="120" as="geometry" />
@@ -19,6 +19,12 @@
         <mxCell id="7PD6qdCcejRFVz4rDIHD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="IhUivpOD8UMIQ9bvYeue-3" target="7PD6qdCcejRFVz4rDIHD-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="IhUivpOD8UMIQ9bvYeue-3" target="7PD6qdCcejRFVz4rDIHD-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="IhUivpOD8UMIQ9bvYeue-3" target="7PD6qdCcejRFVz4rDIHD-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IhUivpOD8UMIQ9bvYeue-3" value="Developer/Architect" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="130" width="30" height="60" as="geometry" />
         </mxCell>
@@ -29,7 +35,7 @@
           <mxGeometry x="80" y="860" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IhUivpOD8UMIQ9bvYeue-13" value="Editor" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="70" width="290" height="620" as="geometry" />
+          <mxGeometry x="230" y="70" width="290" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="7PD6qdCcejRFVz4rDIHD-3" value="Create Application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="120" width="120" height="80" as="geometry" />
@@ -52,16 +58,14 @@
         <mxCell id="7PD6qdCcejRFVz4rDIHD-11" value="Create Service SDK JAR and deploy to Maven Repository" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="250" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7PD6qdCcejRFVz4rDIHD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-21" target="7PD6qdCcejRFVz4rDIHD-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="625" y="430" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-21" target="7PD6qdCcejRFVz4rDIHD-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7PD6qdCcejRFVz4rDIHD-21" value="Define Service API" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-21" value="Design Service" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7PD6qdCcejRFVz4rDIHD-26" value="Update Service SDK and deploy to Maven Repository" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="970" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7PD6qdCcejRFVz4rDIHD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-3" target="7PD6qdCcejRFVz4rDIHD-4">
           <mxGeometry relative="1" as="geometry">
@@ -69,16 +73,57 @@
             <mxPoint x="730" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7PD6qdCcejRFVz4rDIHD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-33" target="7PD6qdCcejRFVz4rDIHD-26">
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-33" target="7PD6qdCcejRFVz4rDIHD-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7PD6qdCcejRFVz4rDIHD-35" value="sdk should includes dependent service interface" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7PD6qdCcejRFVz4rDIHD-34">
-          <mxGeometry x="0.0714" y="2" relative="1" as="geometry">
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-57" value="dependent sevice as component" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7PD6qdCcejRFVz4rDIHD-55">
+          <mxGeometry x="0.413" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7PD6qdCcejRFVz4rDIHD-33" value="Linked Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-37" value="Implement Service&lt;br&gt;(Local Editor)" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-38" value="Mock dependent Service" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-40" value="Debug in test environment thought proxy" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-42" value="Deploy Service" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-44" value="Static check" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-45" value="Package(jar/image)" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-46" value="Run" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-47" value="Test" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-50" target="7PD6qdCcejRFVz4rDIHD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-50" value="Add/Remove Dependent Component" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-51" target="7PD6qdCcejRFVz4rDIHD-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-56" value="api as component" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7PD6qdCcejRFVz4rDIHD-53">
+          <mxGeometry x="-0.2737" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-51" value="Define Service API" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="360" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
