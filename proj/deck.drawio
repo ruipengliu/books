@@ -1,20 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T11:09:03.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="jrNqlUMnaLH3lgpy9dWj" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T03:12:57.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ksSDDE6OKp5hbgN4Ap54" version="14.4.7" type="github">
   <diagram id="NbYphcjg0bYfdM2CbAUF" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IhUivpOD8UMIQ9bvYeue-3" value="Developer/Architect" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="90" width="30" height="60" as="geometry" />
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-2" value="Service" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="70" width="440" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="IhUivpOD8UMIQ9bvYeue-8" value="Application Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="270" width="30" height="60" as="geometry" />
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-13" value="Generate Service scaffold" style="rounded=0;whiteSpace=wrap;fillColor=none;dashed=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;html=1;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="230" width="390" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IhUivpOD8UMIQ9bvYeue-9" value="Infrastructure Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="430" width="30" height="60" as="geometry" />
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhUivpOD8UMIQ9bvYeue-3" target="7PD6qdCcejRFVz4rDIHD-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IhUivpOD8UMIQ9bvYeue-13" value="Editor" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="100" width="300" height="530" as="geometry" />
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhUivpOD8UMIQ9bvYeue-3" target="7PD6qdCcejRFVz4rDIHD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IhUivpOD8UMIQ9bvYeue-3" value="Developer/Architect" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IhUivpOD8UMIQ9bvYeue-8" value="Application Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IhUivpOD8UMIQ9bvYeue-9" value="Infrastructure Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IhUivpOD8UMIQ9bvYeue-13" value="Editor" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="70" width="290" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-3" target="7PD6qdCcejRFVz4rDIHD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-3" value="Create Application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-4" value="Create/Use&lt;br&gt;Git Reporitory" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-7" target="7PD6qdCcejRFVz4rDIHD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-7" value="Create Service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-9" value="Create Service file structure&lt;br&gt;in Git Repository" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="7PD6qdCcejRFVz4rDIHD-11" target="7PD6qdCcejRFVz4rDIHD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7PD6qdCcejRFVz4rDIHD-11" value="Create Service SDK JAR and deploy to Maven Repository" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
